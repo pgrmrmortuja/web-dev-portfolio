@@ -1,22 +1,26 @@
+/* Font settings for body text */
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
-/* shared style */
-.secondary-bg{
-    background-color: #FFF8F3;
 
+/* Shared styles */
+.secondary-bg {
+    background-color: #FFF8F3;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-.dark-2{
+
+.dark-2 {
     color: #474747;
 }
-.btn-primary{
+
+/* Button primary style */
+.btn-primary {
     background-color: #FD6E0A;
     font-weight: bold;
     color: #FFFFFF;
@@ -25,112 +29,181 @@
     border-radius: 5px;
     font-size: 20px;
 }
-.section-tytle{
+
+/* Section title style */
+.section-title {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
-
 }
-.section-description{
+
+/* Section description style */
+.section-description {
     font-size: 18px;
     color: #757575;
 }
-.text-center{
+
+/* Center text */
+.text-center {
     text-align: center;
 }
-/* header */
-.header{
-    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+
+/* Header styles */
+.header {
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
 
-/* Nav Styles  */
-nav{
+/* Navigation styles */
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 200px;
 }
-.nav-title{
-    font-weight: 800px;
+
+/* Navigation title style */
+.nav-title {
+    font-weight: 800;
     font-size: 45px;
-    /*  */
 }
-nav ul{
+
+/* Navigation list styles */
+nav ul {
     display: flex;
     align-items: center;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin-right: 50px;
 }
+
 nav li a {
     text-decoration: none;
     font-size: 20px;
 }
 
-/* banner styles */
-.banner{
+/* Banner styles */
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 580px;
 }
-.banner-greetings{
+
+.banner-greetings {
     font-size: 45px;
-    font-weight: 600px;
+    font-weight: 600;
 }
-.banner-title{
+
+.banner-title {
     font-weight: bold;
     font-size: 85px;
 }
-.banner-description{
+
+.banner-description {
     font-size: 18px;
 }
-.image{
+
+.image {
     width: 580px;
 }
 
-/* main styles */
-main{
+/* Main styles */
+main {
     max-width: 1140px;
     margin: 0 auto;
-
 }
-main section{
+
+main section {
     margin-top: 130px;
     margin-bottom: 130px;
 }
-main .about-bg{
+
+main .about-bg {
     background: #FFFFFF;
 }
 
-
-
-/* about styles */
-.about{
+/* About section styles */
+.about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
 }
-.about-itemss{
+
+.about-itemss {
     display: flex;
     justify-content: space-around;
 }
-.item-description{
+
+.item-description {
     font-weight: 600;
 }
 
-/* skills section styles */
-.skills-container{
+/* Skills section styles */
+.skills-container {
     display: flex;
     gap: 24px;
 }
-.skill{
+
+.skill {
     padding: 30px;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); /*x,y,blur,spread,color*/
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    /*x,y,blur,spread,color*/
     border-radius: 5px;
+}
+
+/* Resume section styles */
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+
+.experience-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description,
+.experience-subtitle {
+    color: #757575;
+}
+
+.resume hr {
+    margin: 30px 5px;
+}
+
+.resume-download-cv {
+    margin-top: 50px;
+}
+
+/* Footer styles */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+/* Footer form input styles */
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 18px;
+    margin-bottom: 24px;
+    border: none;
 }
